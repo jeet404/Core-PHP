@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+var x = 0;
+$(document).ready(function(){
+    $("div").scroll(function(){
+        $("span").text(x += 1);
+    });
+});
+</script>
+</head>
+<body>
+<p>Try the Scrollbar in the div.</p>
+<div style="border: 2px solid black;width: 200px;height: 100px;overflow: scroll;">In my Younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.
+<br><br>
+'Whenever you feel like critisizing anyone', he told me , just remember that all the people in this world haven;t had the advantages that you've had.
+</div>
+<p>Scrolled<span>0</span>Times.</p>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p:first").toggleClass("main");
+    });
+});    
+</script>
+<style>
+.main
+{
+    font-size: 120%;
+    color: orangered;
+}
+</style>
+</head>
+<body>
+<button>Toggle class "main" for p Elements</button>
+<p>This is a Paragraph</p>
+<p>This is another Paragraph.</p>
+<p><b>Note:</b>Click the Buton more then once to se the Toggle Effect.</p>
+</body>
+</html>

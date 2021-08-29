@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".click").click(function(){
+        alert("The Paragraph was Clicked.");
+    });
+});
+$(document).ready(function(){
+    $(".dbclick").dblclick(function(){
+        alert("The Paragraph was Double-Clicked.");
+    });
+});
+</script>
+</head>
+<body>
+<p class="click">Click on This Paragraph.</p>
+<p class="dbclick">Double Click on This Paragraph.</p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div").empty();
+    });
+});
+</script>
+</head>
+<body>
+<div style="height: 100px;background-color: yellowgreen">
+This is Some Text
+<p>This is a Paragraph inside the div.</p>
+</div>
+<p>This is a Paragraph outside the div.</p>
+<button>Remove Content of the div Element.</button>
+</body>
+</html>

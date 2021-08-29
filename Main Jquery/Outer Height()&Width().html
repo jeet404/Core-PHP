@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        alert("Outer Height of div : " + $("div").outerHeight() + " and Outer Width f div : " +$("div").outerWidth());
+    });
+});
+</script>
+</head>
+<body>
+<div style="height: 100px;width: 300px;padding: 10px;margin: 3px;border: 1px solid red;background-color: cadetblue;"></div><br>
+<button id="btn1">Display the Outer Width and Height of div</button>
+</body>
+</html>

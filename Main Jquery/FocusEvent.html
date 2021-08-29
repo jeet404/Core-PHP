@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("input").focus((function(){
+        $("span").css("display","inline");
+    });
+    $("input").blur(function(){
+        $("span").css("display","inline").fadeOut(2000);
+    });
+});    
+</script>
+<style>
+span
+    {
+        display: none;
+    }
+</style>
+</head>
+<body>
+<input>
+<span>Enter Your Password</span>
+<p>Click in the input field to get focus.</p>
+</body>
+</html>

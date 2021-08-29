@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+var x = 0;
+$(document).ready(function(){
+    $(window).resize(function(){
+        $("span").text(x += 1);
+    });
+});
+</script>
+</head>
+<body>
+<p>Window Resized <span>0</span> Times.</p>
+<p>Try Resizing your browser Window. </p>
+</body>
+</html>

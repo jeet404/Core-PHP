@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").after("<p>Hello World!</p>");
+    });
+});
+</script>
+</head>
+<body>
+<button>Insert Content after each p Element.</button>
+<p>This is a Paragraph.</p>
+</body>
+</html>

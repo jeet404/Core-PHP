@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Jquery Besic Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!--<script src="./jq/jquery-3.6.0.js"></script>!-->
+<!--<script src="./jq/jquery-3.6.0.min.js"></script>!-->
+<script>
+$(document).ready(function()
+{
+    $("#myid").click(function()
+    {
+        $(this).hide();
+    });
+    $("p").click(function()
+    {
+        $(this).hide();
+    });
+    $(".myclass").click(function()
+    {
+        $(this).hide();
+    });
+    
+});
+</script>
+</head>
+
+<body>
+<h1 id="myid">If You Click on me , I will Disappear.</h1>
+<p>Click me Away!</p>
+<h1 class="myclass">Click me Too!</h1>
+</body>
+</html>

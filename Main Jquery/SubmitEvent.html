@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("form").submit(function(){
+        alert("Submitted");
+    });
+});
+</script>
+</head>
+<body>
+<form action="">
+First Name :<br>
+<input type="text" name="fname" value="Mat"><br><br>
+Last Name :<br>
+<input type="text" name="lname" value="Watson"><br><br>
+<input type="submit" value="Send">
+</form>
+</body>
+</html>

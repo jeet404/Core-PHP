@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("input").blur(function(){
+        alert("This Input Field has lost it's Focus.");
+    });
+});
+</script>
+</head>
+<body>
+Enter Your Name : <input type="text">
+<p>Write somthing in the input field, and then click outside the field to focus (blur).</p>
+</body>
+</html>

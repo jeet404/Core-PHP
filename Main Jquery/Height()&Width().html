@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        alert("Height of div : " + $("div").height() + " and Width of div : " + $("div").width());
+    });
+    $("#btn2").click(function(){
+        $("div").height(300);
+    });
+    $("#btn3").click(function(){
+        $("div").width(200);
+    });
+});
+</script>
+</head>
+<body>
+<div style="height: 100px;width: 300px;padding: 10px;margin: 3px;border: 2px solid blue;background-color: skyblue;"></div><br>
+<button id="btn1">Display the Height of div</button>
+<button id="btn2">Set Height of div to 300px</button>
+<button id="btn3">Set Width of div to 200px</button>
+</body>
+</html>

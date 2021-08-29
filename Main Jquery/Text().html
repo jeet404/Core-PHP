@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Jquery Document</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").text("Hello World!");
+        alert($("p").text);
+    });
+});
+</script>
+</head>
+<body>
+<button>Set Text Content for all p Elements</button>
+<p id="set">This is a paragraph.</p>
+<p id="get">This is another paragraph.</p>
+</body>
+</html>
