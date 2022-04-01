@@ -5,6 +5,6 @@
     {
         echo "The Number is : $x<br>";
         $x++;
-    }while($x!=1);
+    }while($x<=10);
 
 ?>
