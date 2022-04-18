@@ -7,7 +7,7 @@ for ($i = 0; $i < $num; $i++) {
     for ($j = 0; $j <= $i; $j++) {
         echo "* ";
     }
-    echo "\n";
+    echo "<bt>";
 }
 for ($i = $num - 1; $i > 0; $i--) {
     for ($k = $num - 1; $k >= $i; $k--) {
@@ -16,5 +16,5 @@ for ($i = $num - 1; $i > 0; $i--) {
     for ($j = 0; $j < $i; $j++) {
         echo "* ";
     }
-    echo "\n";
+    echo "<br>";
 }
